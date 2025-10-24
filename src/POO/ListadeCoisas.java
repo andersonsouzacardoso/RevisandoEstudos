@@ -7,6 +7,7 @@ public class ListadeCoisas {
     public static int opcao1 = 1;
     public static int opcao2 = 2;
     public static int opcao3 = 3;
+    public static int opcao4 = 4;
     public static int escolha = Integer.parseInt((JOptionPane.showInputDialog("Digite o Numero da Opção")));
 
 
@@ -19,6 +20,8 @@ public class ListadeCoisas {
             Games();
         } else if (escolha == opcao3) {
             Objetivos();
+        } else if (escolha == opcao4) {
+            Agradecimentos();
         }
     }
     public static void Eletronicos(){
@@ -35,5 +38,11 @@ public class ListadeCoisas {
         System.out.println("Estudar Java");
         System.out.println("Estudar Designer Grafico");
         System.out.println("Ganhar Dinheiro");
+    }
+
+    public static void Agradecimentos(){
+        System.out.println("Sou grato por tudo que tenho e que ainda vou conquistar.");
+        System.out.println("Sou grato por ter saúde");
+        System.out.println("Eu sou capaz de aprender e evoluir");
     }
 }
