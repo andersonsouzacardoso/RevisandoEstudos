@@ -44,5 +44,6 @@ public class ListadeCoisas {
         System.out.println("Sou grato por tudo que tenho e que ainda vou conquistar.");
         System.out.println("Sou grato por ter saúde");
         System.out.println("Eu sou capaz de aprender e evoluir");
+        System.out.println("Eu sou prospero e o dinhiro entra na minha vida");
     }
 }
